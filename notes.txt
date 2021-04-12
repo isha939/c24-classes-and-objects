@@ -1,0 +1,31 @@
+In matter.js we have setAngle, which sets the angle of the body instantly. Angular velocity, position, force etc. are unchanged.
+
+The angle here does not refer to the unit of “degrees”. It is specified as radian.
+
+In the unit of radians:
+PI = 180 degrees;
+PI/2 = 90 degrees;
+PI/4 = 45 degrees and so on
+
+Note: PI stands for the mathematical pi symbol.
+(PI in radians = 180 degrees).
+
+Let us create a Log object just above these Boxes.
+Remember, we need our Log at 90 degrees.
+In radians, 90 degrees = PI/2.
+The Logs in the object also have a fixed width.
+
+Consider you are skating on an ice ring and your friend on the road.
+Can you tell me which one is smoother?
+
+The reason why skating on an ice ring is easier because the force of friction is lesser there.
+Friction is a force exerted by the surface when an object moves on it.
+In matter.js, the value of friction is always positive and is in the range (0,1).
+A value of 0 means that the body may slide indefinitely. A value of 1 means the body may come to a stop almost instantly after a force is applied.
+
+Finally, let's create a Bird Class. We do not have the catapult ready yet.
+So, we will do this.
+1. Our Bird Class will be similar to Pig class.
+2. We will make the Bird Class move with the Mouse.
+
+
